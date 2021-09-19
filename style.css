@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    display: flex;
+    align-items: center; /* Centraliza na horizontal*/
+    justify-content: center; /* Centraliza na vertical*/
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(45deg,orange,red);
+    text-align: center;
+   /*background-repeat: no-repeat;
+    background-size: cover;*/
+}
+a{
+    font-size: 60px;
+    color: #CCFF33;
+    background-size: contain;
+    
+}
+div img{max-width: 100%;margin-top: 55px; margin-bottom: -1px;}
+.main {
+  
+    padding: 5px;
+    border: none;
+    border-radius: 10%;
+}
+.main form input {
+    height: 65px;
+    width: 279px;
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:2px solid black;
+    background-color: whitesmoke;
+    text-align: right;
+    font-size: 45px;
+    color: black;
+    padding-right: 5px;
+    font-family:'Gill Sans';
+}
+.button{
+    transition: 200ms;
+    outline: none;
+    margin: 2px;
+    height: 65px;
+    width: 65px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494C4E;
+    border: none; 
+    color: white; margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494C4E;
+    border: none; 
+    color: white;
+    border-radius: 8px;
+}
+.operation{
+    transition: 200ms;
+    outline: none;
+    margin: 2px;
+    height: 65px;
+    width: 65px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494C4E;
+    border: none; 
+    color: white; margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #494C4E;
+    border: none; 
+    color: white;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color: darkgrey;
+}
+.operation:hover {
+    background-color: darkgrey;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <title>DesafioVortex</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+    <img src="img/lola(1).png">
+    </div>
+    <div class="main">
+        <a class="Texto">Valor de T</a>
+        <form name="form"><input name="txt" type="text" id="resultado" disabled value=""></form>
+        </form>
+        <table>
+          
+            <tr>
+                <td><input type="button" class="button" value="7" onclick="teste.play()"></td>
+                <td><input type="button" class="button" value="8" onclick="teste.play()"></td>
+                <td><input type="button" class="button" value="9" onclick="teste.play()"></td>
+                <td><input type="button" class="operation" value="C" onclick="teste.play(), deleteC()">
+            </tr>
+            <!--Third Line-->
+            <tr>
+                <td><input type="button" class="button" value="4" onclick="teste.play()"></td>
+                <td><input type="button" class="button" value="5" onclick="teste.play()"></td>
+                <td><input type="button" class="button" value="6" onclick="teste.play()"></td> 
+                <td rowspan="2"><input type="button" class="operation" onclick="teste.play(), conta()" value="↵"
+                        id="Bigual" style="height:136px;"></td>
+            </tr>
+            <!--Fourth Line-->
+            <tr>
+                <td><input type="button" class="button" value="1" onclick="teste.play()"></td>
+                <td><input type="button" class="button" value="2" onclick="teste.play()"></td>
+                <td><input type="button" class="button" value="3" onclick="teste.play()"></td>
+               
+            </tr>
+            <!--Fifth Line-->
+            <tr>
+                <td colspan="4"><input type="button" class="button" value="0" id="Bzero" style="width: 280px;"
+                        onclick="teste.play()"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+    <img src="img/bugs(1).png">
+    </div>
+    <script src='script.js'> </script>
+
+</body>
+
+</html>
